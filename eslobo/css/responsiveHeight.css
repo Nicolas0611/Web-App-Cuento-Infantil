@@ -1,0 +1,186 @@
+@media screen and (min-height: 600px) and (max-height: 780px)
+{
+	 #Title h1
+	{
+		padding-top: 90px;
+		font-size: 3em;
+		line-height:5px;
+
+
+	}
+	#Title h2
+	{
+		font-size: 11em;
+	}
+	#Parrafo_Introductorio p
+	{
+		font-size: 1em;
+		text-align:justify;
+	}
+	.Imagen1
+	{
+		position: absolute;
+		bottom: 5%;
+		left: 60%;
+		height: 300px;
+		width:230px;
+
+	}
+	.ArbolAt
+	{
+		z-index:0;
+		position: absolute;
+		left: 7%;
+		bottom: 65%;
+		height: 200px;
+		width:450px;
+	}
+
+	.Arbol
+	{
+		z-index:1;
+		position: absolute;
+		left: 5%;
+		height: 400px;
+		width:500px;
+
+	}
+	.ArbolGrande
+	{
+		z-index:2;
+		position: absolute;
+		left: 25%;
+		height: 500px;
+		width:650px;
+
+	}	
+	.LoboMa
+	{
+		position: absolute;
+		right: 20%;
+		bottom: 2%;
+		height: 700px;
+		width:900px;
+	}
+
+	#Text10
+	{
+		position: absolute;
+		bottom:80%;
+		left: 4%;
+		font-size: 2em;
+		height: 100px;
+		width: 350px;
+
+	}
+	.LoboNoche
+	{
+		position: absolute;
+		left: 4%;
+		bottom: 2%;
+		height: 400px;
+		width:550px;
+	}
+	.Luna
+	{
+		position: absolute;
+		bottom:80%;
+		left: 75%;
+		height: 100px;
+		width:100px;
+	}
+
+	#Text11
+	{
+		position: absolute;
+		bottom:78%;
+		right: 4%;
+		font-size: 2em;
+		height: 100px;
+		width: 350px;
+
+	}
+	.LoboM
+	{
+		position: absolute;
+		bottom: 0%;
+		left: 20%;
+		height: 500px;
+		width:700px;
+	}
+	.Flores
+	{
+		position: absolute;
+		bottom:0%;
+		left: 0%;
+		height: 200px;
+		width:250px;
+	}
+	#Text12
+	{
+		position: absolute;
+		bottom:80%;
+		right: 1%;
+		font-size: 2em;
+		height: 100px;
+		width: 350px;
+
+	}
+	.LoboA
+	{
+		position: absolute;
+		bottom: 0%;
+		left: 36%;
+		height: 600px;
+		width:600px;
+	}
+	.GallinaA
+	{
+		position: absolute;
+		bottom:25%;
+		left: 21%;
+		height: 250px;
+		width:200px;
+	}
+	#Text13
+	{
+		position: absolute;
+		bottom:22%;
+		right: 51%;
+		font-size: 2em;
+		height: 100px;
+		width: 350px;
+	}
+	.LoboP
+	{	
+		z-index: 5;
+		position: absolute;
+		bottom: 0%;
+		left: 45%;
+		height: 650px;
+		width:350px;
+	}
+	.Pollos
+	{
+
+		z-index: 4;
+		height: 600px;
+		width:800px;
+	}
+	.LoboCa
+	{
+		position: absolute;
+		bottom: 0%;
+		left: 4%;
+		height: 550px;
+		width:520px;
+	}
+	.LoboCocina
+	{
+		position: absolute;
+		bottom: 0%;
+		right: 0%;
+		height: 550px;
+		width:720px;
+	}
+}

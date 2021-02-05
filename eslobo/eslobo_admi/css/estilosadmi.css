@@ -1,0 +1,187 @@
+div.header_titulo{
+	margin: 0;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0px -8.9px 20px black;
+}
+
+body{
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	background-color: red;
+}
+
+.tabla{
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+table {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	border-collapse: collapse;
+	cursor: progress;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+table, th, td {
+border-bottom: 1px solid #ddd;
+}
+
+th, td{
+  height: 30px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+p{
+	text-align: center;
+}
+
+h2.txt_title, p#txt_pregunta{
+	text-align: center;
+	cursor: context-menu;
+}
+
+span.obligatorio{
+	font-size: 12px;
+	color: red;
+}
+
+section.top_info{
+	background-color: #7D2D00;
+	padding: 1%;
+	color: white;
+}
+
+section.header_nombre{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+a.link_cerrar:link, a.link_cerrar:visited{
+	text-decoration: none;
+	cursor: pointer;
+	color:white;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+
+a.link_cerrar:hover, a.link_cerrar:active{
+	color: #FF5A02;
+}
+
+
+h2.txt_title{
+	color: #FF5A02;
+	margin-bottom: 0px;
+}
+
+p#txt_pregunta{
+	margin-top: 0px;
+}
+
+a.link_inicial:link, a.link_inicial:visited, a.link_header:link, a.link_header:visited{
+	text-decoration: none;
+	cursor: pointer;
+	color:#591F00;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+
+a.link_inicial:hover, a.link_inicial:active{
+	font-size: 14px;
+	color: #FF5A02;
+}
+
+a.link_header:hover, a.link_header:active{
+	color: #FF5A02;
+}
+
+section.contenido_formulario{
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+section.contenido_ingresar{
+	width: 30%;
+	margin: auto;
+	margin-top: 20px;
+}
+div.contenido_derecha{
+	min-width: 49%
+}
+
+div.contenido_btn{
+	text-align: center;
+	margin-top: 30px;
+}
+
+a#link_end{
+	text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+	outline: none;
+	padding: 15px;
+	display: block;
+	width: 95%;
+	border-radius: 3px;
+	border: 1px solid #eee;
+	margin-top: 5px;
+}
+
+input[type="submit"]:enabled{
+	padding: 15px;
+	color: #fff;
+	background: #7D2D00;
+	width: 150px;
+	margin: 20px auto;
+	margin-top: 0;
+	border-radius: 50px;
+	border:0;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+input[type="submit"]:disabled {
+  	opacity: 0.6;
+  cursor: not-allowed;
+}
+
+input[type="submit"]:hover {
+	background-color: #FF5D00; 
+	 box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1),0 17px 20px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 500px) {
+
+input[type="text"], input[type="password"]{
+	width: 100%;
+}
+
+
+body{
+	font-size: 13px;
+}
+
+section.contenido_formulario{
+	width: 50%;
+}
+
+}

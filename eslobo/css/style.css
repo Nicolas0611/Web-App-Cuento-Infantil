@@ -1,0 +1,516 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Indie Flower', cursive;
+}
+#section0
+{		
+
+	background-image: url(../Imagenes/FondoInicial.png);
+	-webkit-animation: image_blur 2s;
+	background-size:cover;
+	background-position: center;
+
+
+}
+#Parrafo_Introductorio
+{
+	font-size: 1.5em;
+	text-align:justify;
+}
+#Title
+{
+	height: 60%;
+	display: flex;
+    flex-direction: column;
+  	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+#Title h1
+{
+	padding-top: 90px;
+	font-size: 5em;
+	line-height:10px;
+
+
+}
+#Title h2
+{
+	font-size: 15em;
+
+}
+#Deslice 
+{
+	text-align: center;
+}
+#Text0
+{
+	position: absolute;
+	font-size: 2em;
+	bottom: 50%;
+	left: 50%;
+	right: 17%;
+}
+
+#section2
+{
+	background-image: url(../Imagenes/Fondo1.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+
+}
+
+.Imagen1
+{
+	position: absolute;
+	bottom: 5%;
+	left: 60%;
+
+}
+.ArbolAt
+{
+	z-index:0;
+	position: absolute;
+	left: 7%;
+	bottom: 65%;
+}
+
+.Arbol
+{
+	z-index:1;
+	position: absolute;
+	left: 5%;
+
+}
+.ArbolGrande
+{
+	z-index:2;
+	position: absolute;
+	left: 25%;
+
+}
+
+
+
+#Text1
+{
+	z-index: 4;
+	position: absolute;
+	bottom: 55%;
+	left: 60%;
+	right: 0;
+	font-size: 2em;
+	height: 150px;
+	width: 550px;
+}
+
+#section3
+{
+	background-image: url(../Imagenes/Folder1C.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+}
+#Text2
+{
+	z-index: 3;
+	position: absolute;
+	bottom:20%;
+	left: 10%;
+	font-size: 2em;
+	height: 100px;
+	width: 450px;
+
+}
+#SlideI
+{
+	position: absolute;
+	bottom:17%;
+	left: 18%;
+	font-size: 1.7em;
+	height: 100px;
+	width: 350px;
+	text-align:justify;
+}
+#SlideD
+{
+	position: absolute;
+	bottom:20%;
+	right: 3%;
+	font-size: 1.7em;
+	height: 100px;
+	width: 350px;
+	text-align:justify;
+}
+#SlideI1
+{
+	position: absolute;
+	bottom:20%;
+	left: 20%;
+	font-size: 1.6em;
+	height: 100px;
+	width: 350px;
+	text-align:justify;
+}
+#SlideD1
+{
+	position: absolute;
+	bottom:20%;
+	right: 3%;
+	font-size: 1.6em;
+	height: 100px;
+	width: 350px;
+	text-align:justify;
+}
+#LoboEspera
+{
+	background-image: url(../Imagenes/LoboEsperando.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+}
+#LoboCasando
+{
+	background-image: url(../Imagenes/casandolobo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+}
+.LoboMa
+{
+	position: absolute;
+	right: 20%;
+	bottom: 2%;
+}
+.Gallina2
+{
+	position: absolute;
+	right: 10%;
+	bottom: 2%;
+}
+#Text5
+{
+	z-index: 2;
+	position: absolute;
+	bottom:20%;
+	left: 10%;
+	font-size: 2em;
+	height: 100px;
+	width: 450px;
+
+}
+#slidefood
+{
+	background-image: url(../Imagenes/QueComer.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+}
+#section7
+{
+	background-image: url(../Imagenes/Sillamesa.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+}
+#Pancakes
+{
+	background-image: url(../Imagenes/LoboPancakes.png);
+	background-size:cover;
+	background-position: top;
+
+}
+#Rosquillas
+{
+	background-image: url(../Imagenes/LoboDonas.png);
+	background-size:cover;
+	background-position: top;
+
+}
+#galleta
+{
+	background-image: url(../Imagenes/Galletaslobo.png);
+	background-size:cover;
+	background-position: top;
+
+}
+#pastel
+{
+	background-image: url(../Imagenes/LoboPastel.png);
+	background-size:cover;
+	background-position: top;
+
+}
+.LoboCocina
+{
+	position: absolute;
+	right: 0%;
+	bottom: 0%;
+	height: 850px;
+	width:1020px;
+}
+#Text7
+{
+	z-index: 2;
+	position: absolute;
+	bottom:20%;
+	left: 10%;
+	font-size: 2em;
+	height: 100px;
+	width: 450px;
+
+}
+#Text8a
+{
+	z-index: 2;
+	position: absolute;
+	bottom:30%;
+	left: 19%;
+	font-size: 2em;
+	height: 100px;
+	width: 450px;
+
+}
+#Text8b
+{
+	z-index: 2;
+	position: absolute;
+	bottom:30%;
+	right: 2%;
+	font-size: 2em;
+	height: 100px;
+	width: 450px;
+
+}
+#fondobifurcacion
+{
+	background-image: url(../Imagenes/lpensar.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+
+}
+#section9
+{
+	background-image: url(../Imagenes/FondoNoche.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+
+}
+#section10
+{
+	background-image: url(../Imagenes/FondoNoche.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+
+}
+#Text10
+{
+	position: absolute;
+	bottom:85%;
+	left: 5%;
+	font-size: 2em;
+	height: 100px;
+	width: 550px;
+
+}
+.LoboNoche
+{
+	position: absolute;
+	left: 4%;
+	bottom: 2%;
+
+}
+.Luna
+{
+	position: absolute;
+	bottom:80%;
+	left: 75%;
+
+}
+#section11
+{
+	background-image: url(../Imagenes/FondoPuerta.png);
+
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+
+}
+#Text11
+{
+	position: absolute;
+	bottom:85%;
+	right: 4%;
+	font-size: 2em;
+	height: 100px;
+	width: 550px;
+
+}
+.LoboM
+{
+	position: absolute;
+	bottom: 0%;
+	left: 20%;
+}
+.Flores
+{
+	position: absolute;
+	bottom:0%;
+	left: 0%;
+}
+#section12
+{
+	background-image: url(../Imagenes/FondoCasa.png);
+
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+
+}
+#Text12
+{
+	position: absolute;
+	bottom:85%;
+	right: 1%;
+	font-size: 1.5em;
+	height: 100px;
+	width: 550px;
+
+}
+.LoboA
+{
+	position: absolute;
+	bottom: 0%;
+	left: 36%;
+}
+.GallinaA
+{
+	position: absolute;
+	bottom:20%;
+	left: 21%;
+}
+#section13
+{
+	background-image: url(../Imagenes/GallinaHijos.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+
+}
+#Text13
+{
+	position: absolute;
+	bottom:22%;
+	right: 51%;
+	font-size: 2em;
+	height: 100px;
+	width: 550px;
+
+}
+.LoboP
+{	
+	z-index: 5;
+	position: absolute;
+	bottom: 0%;
+	left: 45%;
+}
+#Text14
+{
+	font-size: 7em;
+  	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+#Text12
+{
+	position: absolute;
+	bottom:85%;
+	right: 1%;
+	font-size: 2em;
+	height: 100px;
+	width: 550px;
+
+}
+#Text14a
+{
+	
+	position: absolute;
+	bottom:72%;
+	left: 2%;
+	font-size: 2em;
+	height: 100px;
+	width: 450px;
+
+}
+#Text14b
+{
+	
+	position: absolute;
+	bottom:72%;
+	right: 18%;
+	font-size: 2em;
+	height: 100px;
+	width: 450px;
+
+}
+#section15
+{
+	background-image: url(../Imagenes/FondoF.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+
+}
+#Text15
+{
+	z-index: 8;
+	position: absolute;
+	bottom:32%;
+	right: 12%;
+	font-size: 2em;
+	height: 100px;
+	width: 550px;
+
+}
+#GallinaAgradecida
+{
+	background-image: url(../Imagenes/gallilobo.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+}
+#PollosAgradecidos
+{
+	background-image: url(../Imagenes/pollitosLobo.png);
+	background-size:cover;
+	background-position: top;
+	height: 100%;
+	width: 100%;
+}
+@-webkit-keyframes image_blur {
+    0% { -webkit-filter: blur(100px);}
+    50% { -webkit-filter: blur(50px);}
+    100% { -webkit-filter: blur(0px);}
+}

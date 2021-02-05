@@ -1,0 +1,131 @@
+
+body{
+	width: 50%;
+	margin: auto;
+}
+.contenido_calificar{
+	width: 50%;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
+
+/*El contenedor del check marker*/
+.container {
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*Se oculta el checkmarker original*/
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/*El nuevo checkmarker, normal, color neutro: aquí se define el tamaño del círculo*/
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: -14px;
+  height: 100px;
+  width: 100px;
+  /*background-image: url("Location /16363.png");
+  background-color: #eee;*/
+  background-size: 100px 100px;
+  border-radius: 50%;
+   transition-duration: 0.7s;
+}
+
+/*Color si se pasa por encima el cursor*/
+.container:hover input ~ .checkmark {
+  	    transition-duration: 0.7s;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+
+}
+
+/*Color si se selecciona*/
+.container input:checked ~ .checkmark {
+  background-image: url(/calificar/ejemplo2.gif);
+    box-shadow: 0px 10px 10px 0px rgba(0,255,0,0.25);
+}
+
+#feliz{
+	 background-image: url(/eslobo_calificar/images_calificar/felizbefore.png);
+}
+
+.container:hover input ~ #feliz {
+	background-image: url(/eslobo_calificar/images_calificar/felizafter.png);
+}
+
+.container input:checked ~ #feliz {
+	background-image: url(/eslobo_calificar/images_calificar/felizafter.png);
+}
+
+#normal{
+	 background-image: url(/eslobo_calificar/images_calificar/normalbefore.png);
+}
+
+.container:hover input ~ #normal {
+	background-image: url(/eslobo_calificar/images_calificar/normalafter.png);
+}
+
+.container input:checked ~ #normal {
+	background-image: url(/eslobo_calificar/images_calificar/normalafter.png);
+	    box-shadow: 0px 10px 10px 0px rgba(255,255,0,0.25);
+
+}
+
+#triste{
+	 background-image: url(/eslobo_calificar/images_calificar/tristebefore.png);
+}
+
+.container:hover input ~ #triste {
+	background-image: url(/eslobo_calificar/images_calificar/tristeafter.png);
+}
+
+.container input:checked ~ #triste {
+	background-image: url(/eslobo_calificar/images_calificar/tristeafter.png);
+	    box-shadow: 0px 10px 10px 0px rgba(255,0,0,0.25);
+}
+
+.contenido_op{
+	margin: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.opccion{
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+
+.txt_op:hover{
+	color: red;
+	cursor: none;
+}
+/*¿Qué texto aparece si se selecciona
+.checkmark:after {
+  content: "HOLA";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}*/
